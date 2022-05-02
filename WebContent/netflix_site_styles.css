@@ -1,0 +1,30 @@
+@charset "UTF-8";
+body {
+  background-color: black;
+  direction: rtl;
+}
+h1 {
+  color: white;
+  font-size: 40px
+}
+p {
+  color: white;
+}
+ol{
+	color: white;
+}
+form{
+	color:white;
+}
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  color: white;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+h2 {
+	color: white;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>הרשמה לאתר הכי מגניב אבר</title>
+	<link rel="stylesheet" href="netflix_site_styles.css">
+</head>
+<body>
+<img src="images/netflix_logo.jpg" width="256" height="144"/>
+	<br>
+<form action="RealRegister.jsp">
+  <div class="container">
+    <h1>הירשם לאתר!</h1>
+    <p>אנא מלא את הטופס בכדי להירשם לאתר.</p>
+
+    <label for="email"><b>כתובת מייל</b></label>
+    <input type="text" placeholder="הכנס כתובת מייל" name="email" id="email" required>
+    
+	<label for="username"><b>שם משתמש</b></label>
+    <input type="text" placeholder="שם משתמש" name="username" id="username" required>
+    
+    <label for="psw"><b>סיסמא</b></label>
+    <input type="password" placeholder="הזן סיסמא" name="psw" id="psw" required>
+
+    <label for="psw-repeat"><b>הזן סיסמא בשנית</b></label>
+    <input type="password" placeholder="סיסמא בשנית" name="psw-repeat" id="psw-repeat" required>
+
+    <p>ביצירת החשבון את\ה מסכימ\ה ל <a href="TOS.html">תנאיי הרשמה</a>.</p>
+    <button type="submit" class="registerbtn">הירשם</button>
+  </div>
+
+  <div class="container signin">
+    <p>כבר יש משתמש? <a href="homepage.html">כניסה</a>.</p>
+  </div>
+</form>
+</body>
+</html>

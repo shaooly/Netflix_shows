@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>יצירת תוכן</title>
+	<link rel="stylesheet" href="netflix_site_styles.css">
+</head>
+<body>
+	<img src="images/netflix_logo.jpg" width="256" height="144"/>
+	<br>
+	<a href ="netflix_news.jsp">חזור הביתה</a>
+	<form action="Insert_nigga.jsp">
+	  <div class="container">
+	    <h1>הוספת סדרה שווה לארכיון שלנו</h1>
+	    <p>מלא את הפרטים על הסדרה שלך</p>
+	    <label for="name_of_show"><b>שם התכנית</b></label>
+	    <input type="text" placeholder="הכנס שם תכנית" name="name_of_show" id="name_of_show" required>
+		<br><br>
+	    <label for="zaner"><b>ז'אנר</b></label>
+	    <input type="text" placeholder="ז'אנר התכנית" name="zaner" id="zaner" required>
+		<br><br>
+		<label for="age_restriction"><b>הגבלת גיל</b></label>
+		<input type="number" placeholder="הגבלת גיל" name="age" id="age">
+		<br><br>
+		<label for="show_description"><b>הסדרה בכמה מילים וודא שאין בתוך התיאור שלך מרכאות או גרשיים</b></label>
+		<textarea name="show_description" rows="10" cols="30"> </textarea>
+		<br><br>
+		<label for="image">קישור לתמונת הסדרה</label>
+		<input type="text" id="image" name="image">
+		<br><br>
+	    <button type="submit" class="registerbtn">הגש בקשה להוספה לארכיון</button>
+	  </div>
+		</form>
+</body>
+</html>
